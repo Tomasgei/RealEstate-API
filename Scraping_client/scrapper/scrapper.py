@@ -13,7 +13,7 @@ def get_apartment_data():
     """
     url = "https://www.yit.sk/api/v1/productsearch/apartments"
 
-    x = 1 # number of pages to scrape
+    x = 21 # number of pages to scrape
     flats = []
     for page in range(0,x):
         try: 
