@@ -1,0 +1,1 @@
+web: gunicorn RealEstate_api.wsgi --log-file -
